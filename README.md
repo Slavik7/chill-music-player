@@ -1,6 +1,6 @@
 ## Chill Music Player 
 
-music player using React.js, Sass and more
+music player using React.js, Scss and more
 
 
 
