@@ -1,0 +1,15 @@
+import React from "react";
+
+const Song = ({ isPlaying, currentSong }) => {
+  return (
+    <div className="song-container">
+      <img src={currentSong.image} alt={currentSong.name}></img>
+      <div className="song-info">
+        <h2>{currentSong.name}</h2>
+        <h3>{currentSong.artist}</h3>
+      </div>
+    </div>
+  );
+};
+
+export default Song;

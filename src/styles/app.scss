@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  color: rgb(66, 66, 66);
+}
+
+.App {
+  transition: all 0.3s ease;
+}
+
+.library-is-open {
+  margin-left: 30%;
+}
+@media screen and (max-width: 768px) {
+  .library-is-open {
+    margin-left: 0;
+  }
+}
+@import "./song";
+@import "./player";
+@import "./library";
+@import "./nav";
